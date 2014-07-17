@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Demo Calculator</title>
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<article>
+	<input type="text" id="display"/>
+	<input type="hidden" id="oper">
+	<input type="hidden" id="total"><br>
+	<input type="button" value="C" onclick="reset()"/>
+	<input type="button" value="<-" onclick="delC()"/><br>
+	<input type="button" value="7" onclick="putValue(7)"/>
+	<input type="button" value="8" onclick="putValue('8')"/>
+	<input type="button" value="9" onclick="putValue('9')"/>
+	<input type="button" value="/" onclick="putOper('/')"/><br>
+	<input type="button" value="4" onclick="putValue('4')"/>
+	<input type="button" value="5" onclick="putValue('5')"/>
+	<input type="button" value="6" onclick="putValue('6')"/>
+	<input type="button" value="*" onclick="putOper('*')"/><br>
+	<input type="button" value="1" onclick="putValue('1')"/>
+	<input type="button" value="2" onclick="putValue('2')"/>
+	<input type="button" value="3" onclick="putValue('3')"/>
+	<input type="button" value="-" onclick="putOper('-')"/><br>
+	<input type="button" value="0" onclick="putValue('0')"/>
+	<input type="button" value="+" onclick="putOper('+')"/>
+	<input type="button" value="." onclick="putValue('.')"/>
+	<input type="button" value="=" onclick="sum()"/><br>
+	
+	</article>
+	<script src="calculator.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+input{
+	font-size: 250%;
+}
+article {
+	text-align:center;
+	margins:0;
+	padding:0;
+}
+input[type=button] {
+	width: 23%;
+	line-height: 140%;
+	margin: auto 0.10%;
+	padding:0;
+}
+input[type=text] {
+	width: 100%;
+	line-height: 170%;
+	background-color: #DAFFC8;
+	text-align: right;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
